@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-import sys
-from inspect import Arguments
-
 def safe_print_integer_err(value):
-    val_is_integer = True
+    import sys
     try:
         print("{:d}".format(value))
-    except Exception as exc:
-        print("Exception: {:s}".format(exc.args[0]), file=sys.stderr)
-        val_is_integer = False
-    return val_is_integer
+        return True
+    except Exception as err:
+        print("Exception: {}".format(err), file=sys.stderr)
+        return False
