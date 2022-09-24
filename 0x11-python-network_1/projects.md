@@ -11,9 +11,11 @@ API
 ## Resources
 Read or watch:
 
-HOWTO Fetch Internet Resources Using urllib Package
-Quickstart with Requests package
-Requests package
+[HOWTO Fetch Internet Resources Using urllib Package](https://docs.python.org/3/howto/urllib2.html)
+ 
+[Quickstart with Requests package](https://requests.readthedocs.io/en/latest/)
+ 
+[Requests package](https://pypi.org/project/requests/)
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -46,7 +48,7 @@ You must use get to access to dictionary value by key (it won’t throw an excep
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 Your code should not be executed when imported (by using if __name__ == "__main__":)
 ## Tasks
-0. What's my status? #0
+## 0. What's my status? #0
 mandatory
 Write a Python script that fetches https://alx-intranet.hbtn.io/status
 
@@ -65,8 +67,8 @@ Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 0-hbtn_status.py
-   
-1. Response header value #0
+
+## 1. Response header value #0
 mandatory
 Write a Python script that takes in a URL, sends a request to the URL and displays the value of the X-Request-Id variable found in the header of the response.
 
@@ -87,7 +89,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 1-hbtn_header.py
    
-2. POST an email #0
+## 2. POST an email #0
 mandatory
 Write a Python script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8)
 
@@ -107,7 +109,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 2-post_email.py
    
-3. Error code #0
+## 3. Error code #0
 mandatory
 Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).
 
@@ -133,7 +135,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 3-error_code.py
    
-4. What's my status? #1
+## 4. What's my status? #1
 mandatory
 Write a Python script that fetches https://alx-intranet.hbtn.io/status
 
@@ -151,7 +153,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 4-hbtn_status.py
    
-5. Response header value #1
+## 5. Response header value #1
 mandatory
 Write a Python script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header
 
@@ -171,7 +173,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 5-hbtn_header.py
    
-6. POST an email #1
+## 6. POST an email #1
 mandatory
 Write a Python script that takes in a URL and an email address, sends a POST request to the passed URL with the email as a parameter, and finally displays the body of the response.
 
@@ -190,7 +192,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 6-post_email.py
    
-7. Error code #1
+## 7. Error code #1
 mandatory
 Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response.
 
@@ -215,7 +217,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 7-error_code.py
    
-8. Search API
+## 8. Search API
 mandatory
 Write a Python script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter.
 
@@ -244,7 +246,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 8-json_api.py
    
-9. My GitHub!
+## 9. My GitHub!
 mandatory
 Write a Python script that takes your GitHub credentials (username and password) and uses the GitHub API to display your id
 
@@ -265,7 +267,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 10-my_github.py
    
-10. Time for an interview!
+## 10. Time for an interview!
 #### advanced
 The Holberton School staff evaluates candidates applying for a back-end position with multiple technical challenges, like this one:
 
@@ -293,18 +295,12 @@ a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb: Ryuta Kamizono
 28079868d0e70bdac80c76cf806afd517edfe1e7: Rafael França
 8f0d8551893789f26e5d6b82ccef00779296818f: Rafael Mendonça França
 guillaume@ubuntu:~/0x11$ 
-Be careful: only 60 requests by hour by IP for unauthenticated requests Rate limit
+Be careful: only 60 requests by hour by IP for unauthenticated requests [Rate limit](https://docs.github.com/en/rest) 
 
 Repo:
 
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 100-github_commits.py
-
-#### Links in ascending order
-[HOWTO Fetch Internet Resources Using urllib Package](https://docs.python.org/3/howto/urllib2.html)
-[Quickstart with Requests package](https://requests.readthedocs.io/en/latest/)
-[Requests package](https://pypi.org/project/requests/)
-[Rate Limit](https://docs.github.com/en/rest) 
  
 Copyright © 2022 ALX, All rights reserved.
