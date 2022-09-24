@@ -1,5 +1,4 @@
-
-0x11. Python - Network #1
+# 0x11. Python - Network #1
 Python
 Scripting
 Back-end
@@ -9,16 +8,16 @@ API
  Project will start Sep 23, 2022 6:00 AM, must end by Sep 24, 2022 6:00 AM
  was released at Sep 23, 2022 12:00 PM
  An auto review will be launched at the deadline
-Resources
+## Resources
 Read or watch:
 
 HOWTO Fetch Internet Resources Using urllib Package
 Quickstart with Requests package
 Requests package
-Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+## General
 How to fetch internet resources with the Python package urllib
 How to decode urllib body response
 How to use the Python package requests #requestsiswaysimplerthanurllib
@@ -31,7 +30,7 @@ You are tasked to come up with solutions for the tasks below yourself to meet wi
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 - Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
+## Requirements
 General
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -46,7 +45,7 @@ All your modules should have a documentation (python3 -c 'print(__import__("my_m
 You must use get to access to dictionary value by key (it won’t throw an exception if the key doesn’t exist in the dictionary)
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 Your code should not be executed when imported (by using if __name__ == "__main__":)
-Tasks
+## Tasks
 0. What's my status? #0
 mandatory
 Write a Python script that fetches https://alx-intranet.hbtn.io/status
@@ -267,7 +266,7 @@ Directory: 0x11-python-network_1
 File: 10-my_github.py
    
 10. Time for an interview!
-#advanced
+#### advanced
 The Holberton School staff evaluates candidates applying for a back-end position with multiple technical challenges, like this one:
 
 Please list 10 commits (from the most recent to oldest) of the repository “rails” by the user “rails”
@@ -302,15 +301,10 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 100-github_commits.py
 
-# Links in ascending order
-##                                                                        High-Level Programming
-0x11. Python - Network #1
-
+#### Links in ascending order
 [HOWTO Fetch Internet Resources Using urllib Package](https://docs.python.org/3/howto/urllib2.html)
-
 [Quickstart with Requests package](https://requests.readthedocs.io/en/latest/)
-
 [Requests package](https://pypi.org/project/requests/)
-
-[Rate Limit](https://docs.github.com/en/rest)   
+[Rate Limit](https://docs.github.com/en/rest) 
+ 
 Copyright © 2022 ALX, All rights reserved.
