@@ -1,25 +1,18 @@
 # 0x11. Python - Network #1
-Python
-Scripting
-Back-end
-API
- By: Guillaume, CTO at Holberton School
- Weight: 1
- Project will start Sep 23, 2022 6:00 AM, must end by Sep 24, 2022 6:00 AM
- was released at Sep 23, 2022 12:00 PM
- An auto review will be launched at the deadline
-## Resources
-Read or watch:
-
-[HOWTO Fetch Internet Resources Using urllib Package](https://docs.python.org/3/howto/urllib2.html)
- 
-[Quickstart with Requests package](https://requests.readthedocs.io/en/latest/)
- 
-[Requests package](https://pypi.org/project/requests/)
-## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-## General
+**Python** **Scripting** **Back-end** **API**  
+ By: Guillaume, CTO at Holberton School  
+ Weight: 1  
+ Project will start Sep 23, 2022 6:00 AM, must end by Sep 24, 2022 6:00 AM  
+ was released at Sep 23, 2022 12:00 PM  
+ An auto review will be launched at the deadline  
+### Resources
+**Read** or **watch**:  
+[HOWTO Fetch Internet Resources Using urllib Package](https://docs.python.org/3/howto/urllib2.html)  
+[Quickstart with Requests package](https://requests.readthedocs.io/en/latest/)  
+[Requests package](https://pypi.org/project/requests/)  
+### Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:  
+### General
 How to fetch internet resources with the Python package urllib
 How to decode urllib body response
 How to use the Python package requests #requestsiswaysimplerthanurllib
