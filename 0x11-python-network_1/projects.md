@@ -46,7 +46,7 @@ You are not allowed to publish any content of this project.
 > Your code should not be executed when imported (by using if __name__ == "__main__":)  
 
 ### Tasks
-#### **`0. What's my status? #0`** mandatory
+### **`0. What's my status? #0`** mandatory
 > Write a Python script that fetches https://alx-intranet.hbtn.io/status  
 > You must use the package urllib  
 > You are not allowed to import any packages other than urllib  
@@ -62,7 +62,7 @@ guillaume@ubuntu:~/0x11$
 ```
 GitHub repository: alx-higher_level_programming, Directory: 0x11-python-network_1, File: 0-hbtn_status.py  
 
-#### **`1. Response header value #0`** mandatory
+### **`1. Response header value #0`** mandatory
 > Write a Python script that takes in a URL, sends a request to the URL and displays the value of the X-Request-Id variable found in the header of the response.  
 > You must use the packages urllib and sys  
 > You are not allow to import packages other than urllib and sys  
@@ -79,7 +79,7 @@ guillaume@ubuntu:~/0x11$
 ```
 GitHub repository: alx-higher_level_programming, Directory: 0x11-python-network_1, File: 1-hbtn_header.py
 
-#### **`2. POST an email #0`** mandatory
+### **`2. POST an email #0`** mandatory
 > Write a Python script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8)  
 > The email must be sent in the email variable  
 > You must use the packages urllib and sys  
@@ -94,7 +94,7 @@ guillaume@ubuntu:~/0x11$
 ```
 GitHub repository: alx-higher_level_programming, Directory: 0x11-python-network_1, File: 2-post_email.py.
 
-#### **`3. Error code #0`** mandatory
+### **`3. Error code #0`** mandatory
 > Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).  
 > You have to manage urllib.error.HTTPError exceptions and print: Error code: followed by the HTTP status code  
 > You must use the packages urllib and sys  
@@ -115,26 +115,23 @@ guillaume@ubuntu:~/0x11$
 ```
 GitHub repository: alx-higher_level_programming, Directory: 0x11-python-network_1, File: 3-error_code.py
 
-## 4. What's my status? #1
-mandatory
-Write a Python script that fetches https://alx-intranet.hbtn.io/status
-
-You must use the package requests
-You are not allow to import packages other than requests
-The body of the response must be display like the following example (tabulation before -)
+### **`4. What's my status? #1`** mandatory
+> Write a Python script that fetches https://alx-intranet.hbtn.io/status  
+> You must use the package requests  
+> You are not allow to import packages other than requests  
+> The body of the response must be display like the following example (tabulation before -)  
+```
 guillaume@ubuntu:~/0x11$ ./4-hbtn_status.py | cat -e
 Body response:$
     - type: <class 'str'>$
     - content: OK$
 guillaume@ubuntu:~/0x11$ 
-Repo:
-
+```
 GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1
 File: 4-hbtn_status.py
    
-## 5. Response header value #1
-mandatory
+### `5. Response header value #1` mandatory
 Write a Python script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header
 
 You must use the packages requests and sys
