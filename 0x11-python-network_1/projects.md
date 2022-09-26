@@ -46,8 +46,7 @@ You are not allowed to publish any content of this project.
 > Your code should not be executed when imported (by using if __name__ == "__main__":)  
 
 ### Tasks
-#### **`0. What's my status? #0`**  
-> **mandatory**  
+#### **`0. What's my status? #0`** **mandatory**  
 > Write a Python script that fetches https://alx-intranet.hbtn.io/status
 >
 > You must use the package urllib  
@@ -67,8 +66,7 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x11-python-network_1  
 File: 0-hbtn_status.py  
 
-**`1. Response header value #0`**
-mandatory
+#### **`1. Response header value #0`** mandatory
 Write a Python script that takes in a URL, sends a request to the URL and displays the value of the X-Request-Id variable found in the header of the response.
 
 You must use the packages urllib and sys
