@@ -1,607 +1,550 @@
-
-0x01. AirBnB clone - Web static
-HTML
-CSS
-Front-end
- By: Guillaume
- Weight: 1
- Project over - took place from Aug 11, 2022 6:00 AM to Aug 16, 2022 6:00 AM
- Manual QA review was done by JustineM98 Mugishe on Aug 15, 2022 11:54 PM
+# `0x01. AirBnB clone - Web static`
+## `HTML` `CSS` `Front-end`
+```
+By: Guillaume
+Weight: 1
+Project over - took place from Aug 11, 2022 6:00 AM to Aug 16, 2022 6:00 AM
+Manual QA review was done by JustineM98 Mugishe on Aug 15, 2022 11:54 PM
 In a nutshell…
 Manual QA review: 194.9/195 mandatory & 45.8/46 optional
 Altogether:  199.47%
 Mandatory: 99.95%
 Optional: 99.57%
 Calculation:  99.95% + (99.95% * 99.57%)  == 199.47%
-Concepts
-For this project, we expect you to look at these concepts:
-
-HTML/CSS
-The trinity of front-end quality
-
-
-Background Context
-Web static, what?
-Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
-
-Before developing a big and complex web application, we will build the front end step-by-step.
-
-The first step is to “design” / “sketch” / “prototype” each element:
-
-Create simple HTML static pages
-Style guide
-Fake contents
-No Javascript
-No data loaded from anything
-During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
-
-Before starting, please fork or clone the repository AirBnB_clone from your partner if you were not the owner of the previous project.
-
-Resources
-Read or watch:
-
-Learn to Code HTML & CSS (until “Creating Lists” included)
-Inline Styles in HTML
-Specifics on CSS Specificity
-CSS SpeciFishity
-Introduction to HTML
-CSS
-MDN
-center boxes
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-General
-What is HTML
-How to create an HTML page
-What is a markup language
-What is the DOM
-What is an element / tag
-What is an attribute
-How does the browser load a webpage
-What is CSS
-How to add style to an element
-What is a class
-What is a selector
-How to compute CSS Specificity Value
-What are Box properties in CSS
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should be W3C compliant and validate with W3C-Validator
-All your CSS files should be in styles folder
-All your images should be in images folder
-You are not allowed to use !important and id (#... in the CSS file)
-You are not allowed to use tags img, embed and iframe
-You are not allowed to use Javascript
-Current screenshots have been done on Chrome 56 or more.
-No cross browsers
-You have to follow all requirements but some margin/padding are missing - you should try to fit as much as you can to screenshots
-More Info
-
-
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Hide quiz)
-Question #0
-Is the following HTML markup valid?
-
-<html></html>
-(elements are correctly tagged, we don’t care about !Doctype here)
-
-
-Yes
-
-
-No
-
-Question #1
-Is the following HTML markup valid?
-
-<html>
-    <head>
-    </head>
-    <body>
-    </body>
-</html>
-(elements are correctly tagged, we don’t care about !Doctype here)
-
-
-Yes
-
-
-No
-
-Question #2
-Is the following HTML markup valid?
-
-<html>
-    <head>
-    </head>
-    <body>
-    <body>
-</html>
-(elements are correctly tagged, we don’t care about !Doctype here)
-
-
-Yes
-
-
-No
-
-Tips:
-Each HTML tag must be closed
-
-Question #3
-Is the following HTML markup valid?
-
-<html>
-    <head>
-    </head>
-    <body>
-        <img src="logo.png" />
-    </body>
-</html>
-(elements are correctly tagged, we don’t care about !Doctype here)
-
-
-Yes
-
-
-No
-
-Tips:
-<img /> is an empty element
-
-Question #4
-Is the following HTML markup valid?
-
-<html>
-    <head>
-    </head>
-    <body>
-        <h1>Best <b>School</h1></b>
-    </body>
-</html>
-(elements are correctly tagged, we don’t care about !Doctype here)
-
-
-Yes
-
-
-No
-
-Tips:
-“Always close something before opening a new thing”
-
-Question #5
-Is the following HTML markup valid?
-
-<html>
-    <head>
-    </head>
-    <body>
-        <h1>
-            <a href="www.google.com'>Google</a>
-        </h1>
-    </body>
-</html>
-(elements are correctly tagged, we don’t care about !Doctype here)
-
-
-Yes
-
-
-No
-
-Tips:
-Number of quotes is important!
-
-Question #6
-Is the following HTML markup valid?
-
-<html>
-    <head>
-    </head>
-    <body>
-        <h1>
-            <a href="www.google.com">Go to <b>Google</b>
-        </h1>
-    </body>
-</html>
-(elements are correctly tagged, we don’t care about !Doctype here)
-
-
-Yes
-
-
-No
-
-Question #7
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-Yes
-
-
-No
-
-Question #8
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-* {
-    font-size: 14px;
-}
-
-Yes
-
-
-No
-
-Tips:
-Universal selectors
-
-Question #9
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-* {
-    font-size: 14px;
-    font-weight: 400
-    text-align: center;
-}
-
-Yes
-
-
-No
-
-Tips:
-Betty for CSS!
-
-Question #10
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-* {
-    font-size: 14px;
-    text-align: center;
-
-    h1 {
-        margin: 30px;
-    }
-}
-
-Yes
-
-
-No
-
-Tips:
-CSS vs SCSS
-
-Question #11
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-* {
-    font-size: 14px;
-    text-align: center;
-    margin: 30px 12px 4px;
-}
-
-Yes
-
-
-No
-
-Tips:
-margin and padding support 4 different syntaxes: margin
-
-Question #12
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-h1.title {
-    font-size: 16px;
-}
-
-Yes
-
-
-No
-
-Question #13
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-div.filters h2 {
-    font-size: 16px;
-}
-
-Yes
-
-
-No
-
-Question #14
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-div.filters p.title h2 span.text.big {
-    font-size: 20px;
-}
-
-Yes
-
-
-No
-
-Question #15
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-h3,
-div.full_text,
-div.small_text h4,
-div.filters p.title {
-    font-size: 20px;
-}
-
-Yes
-
-
-No
-
-Question #16
-Is following CSS syntax valid?
-
-body {
-    color: #FF0000;
-}
-
-h3,
-div.full_text
-div.small_text h4
-div.filters p.title {
-    font-size: 20px;
-}
-
-Yes
-
-
-No
-
-Tips:
-, separates multiple selector, without it’s specific selector
-
-Question #17
-In the following code, is the text Best School red?
-
-css:
-
-h1 {
-    color: red;
-}
-html:
-
-<h1>Best School</h1>
-
-Yes
-
-
-No
-
-Question #18
-In the following code, is the text Best School red?
-
-css:
-
-h2 {
-    color: red;
-}
-html:
-
-<h1>Best School</h1>
-
-Yes
-
-
-No
-
-Question #19
-In the following code, is the text Best School red?
-
-css:
-
-h1.title {
-    color: red;
-}
-html:
-
-<h1>Best School</h1>
-
-Yes
-
-
-No
-
-Question #20
-In the following code, is the text Best School red?
-
-css:
-
-h1 div.title {
-    color: red;
-}
-html:
-
-<h1>Best School</h1>
-
-Yes
-
-
-No
-
-Question #21
-In the following code, is the text Best School red?
-
-css:
-
-h3 span.text,
-h1,
-div.title {
-    color: red;
-}
-html:
-
-<h1>Best School</h1>
-
-Yes
-
-
-No
-
-Question #22
-In the following code, is the text Best School red?
-
-css:
-
-h1 {
-    color: green;
-}
-
-span.my_title {
-    color: red;
-}
-html:
-
-<h1>
-    <span class="my_title">Best School</span>
-</h1>
-
-Yes
-
-
-No
-
-Tips:
-CSS selector math
-
-Question #23
-In the following code, is the text Best School red?
-
-css:
-
-h1 .my_title {
-    color: green;
-}
-
-.my_title {
-    color: red;
-}
-html:
-
-<h1>
-    <span class="my_title">Best School</span>
-</h1>
-
-Yes
-
-
-No
-
-Tips:
-CSS selector math
-
-Tasks
-0. Inline styling
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write an HTML page that displays a header and a footer.
-
-Layout:
-
-Body:
-no margin
-no padding
-Header:
-color #FF0000 (red)
-height: 70px
-width: 100%
-Footer:
-color #00FF00 (green)
-height: 60px
-width: 100%
-text Best School center vertically and horizontally
-always at the bottom at the page
-Requirements:
-
-You must use the header and footer tags
-You are not allowed to import any files
-You are not allowed to use the style tag in the head tag
-Use inline styling for all your tags
-
-
-Repo:
-
-GitHub repository: AirBnB_clone
-Directory: web_static
-File: 0-index.html
-  
-1. Head styling
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)
-
-Requirements:
-
-You must use the header and footer tags
-You are not allowed to import any files
-No inline styling
-You must use the style tag in the head tag
-The layout must be exactly the same as 0-index.html
-
-Repo:
-
-GitHub repository: AirBnB_clone
-Directory: web_static
-File: 1-index.html
-  
+```
+> ## `Concepts`
+> For this project, we expect you to look at these concepts:
+> 
+> - [HTML/CSS](p_concepts/html_nd_CSS.md)  
+> - [The trinity of front-end quality](p_concepts/trinity_of_front_end_quality.md)  
+
+
+> ## `Background Context`
+> ### Web static, what?  
+> Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!  
+> 
+> Before developing a big and complex web application, we will build the front end step-by-step.  
+> 
+> The first step is to “design” / “sketch” / “prototype” each element:  
+> 
+> - Create simple HTML static pages  
+> - Style guide  
+> - Fake contents  
+> - No Javascript  
+> - No data loaded from anything  
+>
+> During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.  
+> 
+> Before starting, please fork or clone the repository `AirBnB_clone` from your partner if you were not the owner of the previous project.  
+> 
+> ## Resources
+> `Read` or `watch:`
+> 
+> - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)(until “Creating Lists” included)  
+> - [Inline Styles in HTML](https://www.codecademy.com/article/html-inline-styles)  
+> - [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)  
+> - [CSS SpeciFishity](https://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)  
+> - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)  
+> - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)  
+> - [MDN](https://developer.mozilla.org/en-US/)  
+> - [center boxes](https://css-tricks.com/centering-css-complete-guide/)
+>   
+> ## Learning Objectives
+> At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+> 
+> ### General
+> 
+> - What is HTML  
+> - How to create an HTML page  
+> - What is a markup language  
+> - What is the DOM  
+> - What is an element / tag  
+> - What is an attribute  
+> - How does the browser load a webpage  
+> - What is CSS  
+> - How to add style to an element  
+> - What is a class  
+> - What is a selector  
+> - How to compute CSS Specificity Value  
+> - What are Box properties in CSS  
+>
+> Copyright - Plagiarism  
+> You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.  
+> You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.  
+> You are not allowed to publish any content of this project.  
+> Any form of plagiarism is strictly forbidden and will result in removal from the program.  
+> ## Requirements
+> ### General
+> 
+> - Allowed editors: `vi`, `vim`, `emacs`  
+> - All your files should end with a new line  
+> - A `README.md` file, at the root of the folder of the project, is mandatory  
+> - Your code should be W3C compliant and validate with [W3C-Validator](https://github.com/holbertonschool/> W3C-Validator)  
+> - All your CSS files should be in `styles` folder  
+> - All your images should be in `images` folder  
+> - You are not allowed to use `!important` and `id` (`#`... in the CSS file)  
+> - You are not allowed to use tags `img`, `embed` and `iframe`  
+> - You are not allowed to use Javascript  
+> - Current screenshots have been done on `Chrome 56` or more.  
+> - No cross browsers  
+> - You have to follow all requirements but some margin/padding are missing - you should try to fit as much as you can to screenshots  
+> 
+> ## More Info
+> 
+> # image.png
+
+> ## Quiz questions
+> 
+> Great! You've completed the quiz successfully! Keep going! (Hide quiz)
+> ### Question #0
+> Is the following HTML markup valid?
+> ```
+> <html></html>
+> ```
+> (elements are correctly tagged, we don’t care about !Doctype here)
+> - Yes  
+> - No  
+
+> ### Question #1
+> Is the following HTML markup valid?
+> ```
+> <html>
+>     <head>
+>     </head>
+>     <body>
+>     </body>
+> </html>
+> ```
+> (elements are correctly tagged, we don’t care about !Doctype here)
+> - Yes  
+> - No  
+
+> ### Question #2
+> Is the following HTML markup valid?
+> ```
+> <html>
+>     <head>
+>     </head>
+>     <body>
+>     <body>
+> </html>
+> ```
+> (elements are correctly tagged, we don’t care about !Doctype here)  
+> - Yes  
+> - No  
+> 
+> Tips:
+> Each HTML tag must be closed
+
+> ### Question #3
+> Is the following HTML markup valid?
+> ```
+> <html>
+>     <head>
+>     </head>
+>     <body>
+>         <img src="logo.png" />
+>     </body>
+> </html>
+> ```
+> (elements are correctly tagged, we don’t care about !Doctype here)
+> - Yes  
+> - No  
+> 
+> Tips:
+> <img /> is an empty element
+
+> ### Question #4
+> Is the following HTML markup valid?
+> ```
+> <html>
+>     <head>
+>     </head>
+>     <body>
+>         <h1>Best <b>School</h1></b>
+>     </body>
+> </html>
+> ```
+> (elements are correctly tagged, we don’t care about !Doctype here)
+> - Yes  
+> - No  
+> 
+> Tips:
+> “Always close something before opening a new thing”
+
+> ### Question #5
+> Is the following HTML markup valid?
+> ```
+> <html>
+>     <head>
+>     </head>
+>     <body>
+>         <h1>
+>             <a href="www.google.com'>Google</a>
+>         </h1>
+>     </body>
+> </html>
+> ```
+> (elements are correctly tagged, we don’t care about !Doctype here)
+> - Yes  
+> - No  
+> 
+> Tips:
+> Number of quotes is important!
+
+> ### Question #6
+> Is the following HTML markup valid?
+> ```
+> <html>
+>     <head>
+>     </head>
+>     <body>
+>         <h1>
+>             <a href="www.google.com">Go to <b>Google</b>
+>         </h1>
+>     </body>
+> </html>
+> ```
+> (elements are correctly tagged, we don’t care about !Doctype here)
+> - Yes  
+> - No  
+
+> ### Question #7
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> ```
+> - Yes  
+> - No  
+
+> ### Question #8
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> * {
+>     font-size: 14px;
+> }
+> ```
+> - Yes  
+> - No  
+> 
+> Tips:
+> [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
+
+> ### Question #9
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> * {
+>     font-size: 14px;
+>     font-weight: 400
+>     text-align: center;
+> }
+> ```
+> - Yes  
+> - No  
+> 
+> Tips:
+> Betty for CSS!
+
+> ### Question #10
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> * {
+>     font-size: 14px;
+>     text-align: center;
+> 
+>     h1 {
+>         margin: 30px;
+>     }
+> }
+> ```
+> - Yes  
+> - No  
+> 
+> Tips:
+> CSS vs SCSS
+
+> ### Question #11
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> * {
+>     font-size: 14px;
+>     text-align: center;
+>     margin: 30px 12px 4px;
+> }
+> ```
+> - Yes  
+> - No  
+> 
+> Tips:
+> `margin` and `padding` support 4 different syntaxes: [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+
+> ### Question #12
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> h1.title {
+>     font-size: 16px;
+> }
+> ```
+> - Yes  
+> - No  
+
+> ### Question #13
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> div.filters h2 {
+>     font-size: 16px;
+> }
+> ```
+> - Yes  
+> - No  
+
+> ### Question #14
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> div.filters p.title h2 span.text.big {
+>     font-size: 20px;
+> }
+> ```
+> - Yes  
+> - No  
+
+> ### Question #15
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> h3,
+> div.full_text,
+> div.small_text h4,
+> div.filters p.title {
+>     font-size: 20px;
+> }
+> ```
+> - Yes  
+> - No  
+
+> ### Question #16
+> Is following CSS syntax valid?
+> ```
+> body {
+>     color: #FF0000;
+> }
+> 
+> h3,
+> div.full_text
+> div.small_text h4
+> div.filters p.title {
+>     font-size: 20px;
+> }
+> ```
+> - Yes  
+> - No  
+> 
+> Tips:
+> `,` separates multiple selector, without it’s specific selector
+
+> ### Question #17
+> In the following code, is the text Best School red?
+> ```
+> css:
+> 
+> h1 {
+>     color: red;
+> }
+> html:
+> 
+> <h1>Best School</h1>
+> ```
+> - Yes  
+> - No  
+
+> ### Question #18
+> In the following code, is the text Best School red?
+> ```
+> css:
+> 
+> h2 {
+>     color: red;
+> }
+> html:
+> 
+> <h1>Best School</h1>
+> ```
+> - Yes  
+> - No  
+
+> ### Question #19
+> In the following code, is the text Best School red?
+> ```
+> css:
+> 
+> h1.title {
+>     color: red;
+> }
+> html:
+> 
+> <h1>Best School</h1>
+> ```
+> - Yes  
+> - No  
+
+> ### Question #20
+> In the following code, is the text Best School red?
+> ```
+> css:
+> 
+> h1 div.title {
+>     color: red;
+> }
+> html:
+> 
+> <h1>Best School</h1>
+> ```
+> - Yes  
+> - No  
+
+> ### Question #21
+> In the following code, is the text Best School red?
+> ```
+> css:
+> 
+> h3 span.text,
+> h1,
+> div.title {
+>     color: red;
+> }
+> html:
+> 
+> <h1>Best School</h1>
+> ```
+> - Yes  
+> - No  
+
+> ### Question #22
+> In the following code, is the text Best School red?
+> ```
+> css:
+> 
+> h1 {
+>     color: green;
+> }
+> 
+> span.my_title {
+>     color: red;
+> }
+> html:
+> 
+> <h1>
+>     <span class="my_title">Best School</span>
+> </h1>
+> ```
+> - Yes  
+> - No  
+> 
+> Tips:
+> [CSS selector math](http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)
+
+> ### Question #23
+> In the following code, is the text Best School red?
+> ```
+> css:
+> 
+> h1 .my_title {
+>     color: green;
+> }
+> 
+> .my_title {
+>     color: red;
+> }
+> html:
+> 
+> <h1>
+>     <span class="my_title">Best School</span>
+> </h1>
+> ```
+> - Yes  
+> - No  
+> 
+> Tips:
+> CSS selector math
+
+# Tasks
+> ## `1. Inline styling` mandatory  
+> Score: 100.0% (Checks completed: 100.0%)  
+> Write an HTML page that displays a header and a footer.  
+> Layout:  
+> - Body:  
+>       - no margin  
+>       - no padding  
+> - Header:  
+>       - color #FF0000 (red)  
+>       - height: 70px  
+>       - width: 100%  
+> - Footer:  
+>       - color #00FF00 (green)  
+>       - height: 60px  
+>       - width: 100%  
+>       - text Best School center vertically and horizontally  
+>       - always at the bottom at the page  
+> Requirements:  
+>     - You must use the header and footer tags  
+>     - You are not allowed to import any files  
+>     - You are not allowed to use the style tag in the head tag  
+>     - Use inline styling for all your tags  
+>   
+> # image.png  
+>   
+> GitHub repository: AirBnB_clone  
+> Directory: web_static  
+> File: 0-index.html  
+
+> # `1. Head styling` mandatory
+> Score: 100.0% (Checks completed: 100.0%)  
+> Write an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)  
+> 
+> - Requirements:
+>     - You must use the header and footer tags  
+>     - You are not allowed to import any files  
+>     - No inline styling  
+>     - You must use the style tag in the head tag  
+>     - The layout must be exactly the same as 0-index.html  
+> 
+> GitHub repository: AirBnB_clone  
+> Directory: web_static  
+> File: 1-index.html  
+      
 2. CSS files
 mandatory
 Score: 100.0% (Checks completed: 100.0%)
