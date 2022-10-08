@@ -528,7 +528,7 @@ Calculation:  99.95% + (99.95% * 99.57%)  == 199.47%
 >   
 > GitHub repository: AirBnB_clone  
 > Directory: web_static  
-> File: 0-index.html  
+> File: [0-index.html](0-index.html)  
 
 > # `1. Head styling` mandatory
 > Score: 100.0% (Checks completed: 100.0%)  
@@ -543,7 +543,7 @@ Calculation:  99.95% + (99.95% * 99.57%)  == 199.47%
 > 
 > GitHub repository: AirBnB_clone  
 > Directory: web_static  
-> File: 1-index.html  
+> File: [1-index.html](1-index.html)  
       
 2. CSS files
 mandatory
